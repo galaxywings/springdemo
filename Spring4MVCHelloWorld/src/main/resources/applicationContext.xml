@@ -68,6 +68,7 @@
     </tx:advice>
     
     <aop:config expose-proxy="true">
+        <!-- test -->
         <!-- 只对业务逻辑层实施事务 -->
         <aop:pointcut id="txPointcut" expression="execution(* com.lei.demo.service..*.*(..))" />
         <!-- Advisor定义，切入点和通知分别为txPointcut、txAdvice -->
