@@ -3,7 +3,6 @@ package com.spring.entity;
 import java.io.Serializable;
 import javax.persistence.*;
 
-
 /**
  * The persistent class for the t_cart database table.
  * 

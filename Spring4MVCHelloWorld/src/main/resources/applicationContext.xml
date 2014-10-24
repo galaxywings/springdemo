@@ -67,6 +67,7 @@
         </tx:attributes>
     </tx:advice>
     
+    
     <aop:config expose-proxy="true">
         <!-- 只对业务逻辑层实施事务 -->
         <aop:pointcut id="txPointcut" expression="execution(* com.lei.demo.service..*.*(..))" />
